@@ -1,0 +1,103 @@
+/* ===== ESTILOS GENERALES ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* ===== ENCABEZADO ===== */
+header {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.logo {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* ===== SECCIONES ===== */
+section {
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* ===== TITULOS ===== */
+h2 {
+    color: #b22222;
+    border-bottom: 2px solid #b22222;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #8b0000;
+    margin-top: 30px;
+}
+
+/* ===== MENU ===== */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px dashed #ccc;
+    font-size: 15px;
+}
+
+.menu li span {
+    font-weight: bold;
+    color: #b22222;
+}
+
+/* ===== BOTÓN WHATSAPP ===== */
+.pedido {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.pedido a {
+    background-color: #25D366;
+    color: white;
+    padding: 16px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.pedido a:hover {
+    background-color: #1ebe5d;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    .menu li {
+        font-size: 14px;
+    }
+}
